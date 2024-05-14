@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  user-select: none;
+}
+
+.container {
+  width: 100%;
+}
+.white_name {
+  color: white;
+  background-color: black;
+}
+
+.soilname {
+  font-size: 26px;
+  position: absolute;
+  left: 5%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  /* border-bottom: 1px solid black; */
+}
+
+.nav {
+  display: flex;
+  width: 330px;
+  justify-content: space-between;
+  position: absolute;
+  /* border: 1px solid black; */
+  right: 24%;
+  margin-left: 10px;
+}
+
+.nav_a {
+  font-size: 17px;
+  color: gray;
+}
+
+.nav_a:nth-child(1) {
+  color: rgb(0, 0, 0);
+}
+
+.call {
+  position: absolute;
+  /* font-size: 17px; */
+  right: 10%;
+  width: 120px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main_img {
+  width: 100%;
+  height: 550px;
+  user-select: none;
+}
+
+.main_h1 {
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 5%;
+  font-size: 40px;
+}
+
+.main_btn {
+  position: absolute;
+  left: 5%;
+  top: 320px;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_main {
+  position: absolute;
+  color: white;
+  top: 500px;
+  left: 5%;
+  font-size: 18px;
+}
+
+.line {
+  position: absolute;
+  height: 0px;
+  width: 57%;
+  border-bottom: 1px solid white;
+  left: 20%;
+  top: 507px;
+}
+
+.button_main2 {
+  position: absolute;
+  color: white;
+  top: 500px;
+  right: 9%;
+}
+
+.about_info {
+  width: 100%;
+}
+
+.line_info {
+  position: relative;
+  width: 5%;
+  border-bottom: 4px solid grey;
+  border-radius: 5px;
+  left: 5%;
+  top: 50px;
+}
+
+.about_fond {
+  position: relative;
+  top: 39px;
+  left: 12%;
+  width: 10%;
+}
+
+.all_info_about {
+  position: relative;
+  width: 50%;
+  /* height: 100px; */
+  /* border: 1px solid black; */
+  left: 12%;
+  top: 60px;
+}
+
+.all_info_p {
+  color: grey;
+  position: relative;
+  top: 30px;
+  font-size: 17px;
+}
+
+.all_info_about_button {
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seven {
+  position: relative;
+  font-size: 250px;
+  left: 120%;
+  width: 10px;
+  top: -250px;
+  user-select: none;
+}
+
+.years {
+  font-size: 50px;
+  font-weight: 900;
+  position: relative;
+  left: -30px;
+  user-select: none;
+}
+
+.our_team {
+  position: relative;
+  top: -100px;
+  left: -4%;
+}
+
+.line_in_info {
+  position: relative;
+  width: 127%;
+  /* color: grey; */
+  border-top: 1px solid rgb(224, 224, 224);
+  /* height: 0px; */
+  top: -110px;
+  left: 20%;
+}
+
+.teams {
+  position: relative;
+  display: flex;
+  left: -4%;
+  top: -70px;
+  justify-content: space-between;
+  width: 151%;
+  height: 50px;
+  /* color: grey; */
+  /* border: 1px solid black; */
+}
+
+.a_teams {
+  color: grey;
+  /* font-size: 18px; */
+}
+
+.how_we_raised {
+  position: relative;
+  width: 76%;
+  height: 460px;
+  border: 1px solid rgb(48, 48, 48);
+  border-radius: 10px;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  left: 10%;
+}
+
+.my_teams {
+  position: relative;
+  /* left: 8%; */
+  top: 80px;
+  font-size: 30px;
+}
+
+.team_h1 {
+  position: relative;
+  /* left: 8%; */
+  top: 90px;
+  font-size: 40px;
+}
+
+.text_raised {
+  position: relative;
+  width: 35%;
+  left: 8%;
+  height: 450px;
+}
+
+.text_team {
+  color: grey;
+  position: relative;
+  top: 110px;
+  font-size: 15px;
+}
+
+.doc {
+  position: relative;
+  /* top: 140px; */
+  font-size: 25px;
+}
+
+.text_doc {
+  font-size: 15px;
+  position: relative;
+  top: -10px;
+  color: grey;
+}
+
+.val {
+  position: relative;
+  /* top: 140px; */
+  font-size: 25px;
+  /* left: 10%; */
+}
+
+.val_text {
+  font-size: 15px;
+  color: grey;
+  position: relative;
+  top: -10px;
+}
+
+.good {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+  top: 140px;
+}
+
+.how_teams {
+  position: relative;
+  font-size: 25px;
+}
+
+.team {
+  color: grey;
+  position: relative;
+  top: -10px;
+  font-size: 15px;
+}
+
+.about_team {
+  position: relative;
+  top: 170px;
+  width: 120px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.must_be_img {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background-color: grey;
+  top: -420px;
+  left: 50%;
+  border-radius: 10px;
+}
+
+.main_quests {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(255, 238, 241);
+  top: 50px;
+  position: relative;
+}
+
+.line_princip {
+  position: relative;
+  width: 5%;
+  border-bottom: 4px solid grey;
+  border-radius: 5px;
+  left: 5%;
+  top: 50px;
+}
+
+.princip {
+  position: relative;
+  top: 39px;
+  left: 12%;
+  width: 10%;
+}
+
+.main_quest {
+  position: relative;
+  left: 12%;
+  top: 50px;
+  width: 50%;
+  font-size: 40px;
+  /* height: 500px; */
+}
+.list_of_quests {
+  position: relative;
+  left: 12%;
+  top: 80px;
+  width: 30%;
+}
+.list_q {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  margin-bottom: 50px;
+  /* border: 1px solid black; */
+}
+
+.must_be_img_for_quests {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+}
+
+.quest_h1 {
+  position: relative;
+  left: 10%;
+  top: -20px;
+}
+
+.quest_p {
+  position: relative;
+  left: 10%;
+  top: -20px;
+  color: grey;
+}
+
+.must_be_img_for_quests {
+  position: relative;
+
+  top: 8px;
+  border-radius: 5px;
+}
+
+.ways_to_work {
+  position: relative;
+  width: 100%;
+  height: 370px;
+  background-color: rgba(39, 39, 39, 1);
+  top: 100px;
+}
+
+.ways {
+  position: relative;
+  left: 12%;
+  top: 50px;
+  width: 30%;
+  color: white;
+}
+
+.ways_text {
+  color: grey;
+  position: relative;
+  left: 12%;
+  top: 90px;
+  width: 50%;
+}
+
+.percent_of_ways {
+  width: 40%;
+  height: 20px;
+  position: relative;
+  left: 12%;
+  top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.percent_tips {
+  color: white;
+  display: flex;
+}
+
+.squere {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 215, 165);
+  border-radius: 3px;
+  margin-right: 7px;
+}
+.squere_two {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(201, 201, 201);
+  border-radius: 3px;
+  margin-right: 7px;
+}
+.squere_three {
+  width: 20px;
+  height: 20px;
+  background-color: antiquewhite;
+  border-radius: 3px;
+  margin-right: 7px;
+}
+
+.learn_more {
+  position: relative;
+  top: 150px;
+  left: 12%;
+  width: 10%;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.write_me {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  top: 100px;
+}
+
+.img_write_me {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 50px;
+  height: 350px;
+  filter: brightness(60%);
+  border-radius: 10px;
+}
+
+.text_photo_write_me {
+  position: relative;
+  justify-content: center;
+  top: -250px;
+  left: 37%;
+  width: 50%;
+  color: white;
+}
+
+.call_write_me {
+  position: relative;
+  top: 50px;
+  left: 13%;
+  width: 17%;
+  height: 40px;
+  color: white;
+  background-color: rgb(255, 228, 181);
+  border: 1px solid rgb(255, 228, 181);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main_news {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  /* background-color: red; */
+  top: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.h1_news {
+  position: relative;
+  left: 10%;
+  width: 20%;
+  white-space: nowrap;
+}
+
+.img_news {
+  width: 90%;
+  height: 192px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.img_for_news {
+  position: relative;
+  left: -10%;
+  top: 60px;
+  object-fit: cover;
+}
+
+.text_for_news_main {
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.text_for_news_dop {
+  position: relative;
+  color: grey;
+  top: 20px;
+  margin-left: 20px;
+}
+
+.vetka {
+  position: absolute;
+  width: 140px;
+  left: 145%;
+  top: -50px;
+}
+
+.vetka_chache {
+  transform: scaleX(-1);
+  z-index: 1;
+  position: absolute;
+  left: 105%;
+}
+
+.town {
+  position: relative;
+  width: 120%;
+  top: -300px;
+  left: 150%;
+  top: -500px;
+  border-radius: 5px;
+}
+
+.circle {
+  position: relative;
+  width: 25%;
+  left: 60%;
+  top: -130px;
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  background-color: rgba(39, 39, 39, 1);
+  top: 170px;
+}
+
+.soilfotter {
+  position: relative;
+  color: white;
+  left: 10%;
+  width: 10%;
+  top: 60px;
+}
+
+.soil_white {
+  background-color: white;
+  color: black;
+}
+
+.seti {
+  color: white;
+  font-size: 18px;
+  position: relative;
+
+  width: 100%;
+  top: 100px;
+}
+
+.line111 {
+  position: relative;
+  height: 1;
+  width: 100%;
+  border: 1px solid grey;
+  top: 130px;
+}
+
+.block {
+  display: flex;
+
+  flex-direction: column;
+  position: relative;
+  width: 17%;
+  left: 10%;
+}
+
+.soc {
+  color: white;
+  font-size: 16px;
+  position: relative;
+  top: 170px;
+  margin-bottom: 30px;
+}
+
+.add1 {
+  position: relative;
+  left: 40%;
+  top: -170px;
+}
+
+.updates {
+  position: relative;
+  top: -240px;
+  left: 63%;
+  width: 25%;
+}
+
+.sub {
+  color: white;
+  font-size: 18px;
+}
+
+.line222 {
+  position: relative;
+  height: 1;
+  width: 100%;
+  border: 1px solid grey;
+  top: 30px;
+}
+
+.form {
+  position: relative;
+  top: 70px;
+}
+
+.email {
+  background-color: rgba(39, 39, 39, 1);
+  border: 1px solid grey;
+  width: 65%;
+  height: 50px;
+  border-radius: 5px;
+  caret-color: white;
+  color: white;
+  padding-left: 10px;
+}
+
+/* Стили для элемента input */
+.email::placeholder {
+  text-indent: 10px; /* Смещение текста placeholder на 10 пикселей вправо */
+}
+.email:focus {
+  outline: none;
+}
+
+.submit {
+  height: 50px;
+  position: relative;
+  left: -5px;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 5px;
+}
