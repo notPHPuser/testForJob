@@ -400,6 +400,7 @@ button {
 }
 
 .ways_to_work {
+  max-height: 100%;
   position: relative;
   width: 100%;
   height: 370px;
@@ -582,7 +583,8 @@ button {
 
 .circle {
   position: relative;
-  width: 25%;
+  width: 28%;
+  height: 90%;
   left: 60%;
   top: -130px;
 }
